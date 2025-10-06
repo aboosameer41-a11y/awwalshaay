@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Contact — Awwal Shaay</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="brand">AWWAL SHAAY</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="product.html">Product</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="container contact-page">
+  <h1>Contact Us</h1>
+  <p>For product inquiries and orders contact us via phone, email, or WhatsApp.</p>
+  <div class="contact-grid">
+    <div class="card">
+      <h3>Get in touch</h3>
+      <p><strong>Phone:</strong> <a href="tel:+971564637861">+971 56 463 7861</a></p>
+      <p><strong>Company:</strong> AWWAL SHAAY TEA BLEND</p>
+      <p><strong>Location:</strong> Al Quoz 3, Dubai, UAE</p>
+      <p><a class="btn primary" href="https://wa.me/971564637861?text=Hello%20Awwal%20Shaay%2C%20I%20would%20like%20to%20order%20your%20product.">Message on WhatsApp</a></p>
+    </div>
+    <div class="card">
+      <h3>Order / Inquiry Form</h3>
+      <form id="orderForm">
+        <label>Name<input type="text" id="name" required></label>
+        <label>Company<input type="text" id="company"></label>
+        <label>Quantity<input type="number" id="qty" min="1" value="1" required></label>
+        <label>Message<textarea id="message">I would like to order Awwal Shaay Instant Karak Powder - quantity: </textarea></label>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send via WhatsApp</button>
+          <button type="button" id="emailBtn" class="btn outline">Send via Email</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <strong>AWWAL SHAAY TEA BLEND</strong><br>
+      Al Quoz 3, Dubai, UAE<br>
+      Phone: <a href="tel:+971564637861">+971 56 463 7861</a>
+    </div>
+    <div class="social">
+      <a href="mailto:info@awwalshaay.com">info@awwalshaay.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
